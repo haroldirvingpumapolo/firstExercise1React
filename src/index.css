@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+}
+body{
+  background-color: #2E3038;
+}
+/*centralizador al mismo nivel*/
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  margin: 15px 0 15px 0;
+  width: 90%;
+  max-width: 950px;
+  justify-content: space-between;
+}
+/*BACKGROUND*/
+.background_color-flex{
+  background-color: #0A0A0B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.background_color-container{
+  width: 90%;
+  max-width: 950px;
+}
+.background_color-container>*{
+  margin: 30px 0 30px 0;
+}
+/*NAVBAR CSS*/
+.nav{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title_icon{
+  font-weight: bold;
+}
+.nav-nav_bar_items{
+  display: flex;
+}
+.nav-item{
+  padding: 0 20px 0 20px;
+}
+/*BUTTON CSS*/
+button{
+  background-color: #FBE850;
+  border: solid 0px;
+  padding: 15px;
+  color: black;
+}
+/*HERO CSS*/
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.hero-container{
+  max-width: 50%;
+}
+/*BRANDS*/
+
+.brands{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*PROYECTS*/
+.container-projects{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0 40px 0;
+  justify-content: space-between;
+}
+.proyects-item{
+  max-width: 430px;
+  padding: 50px 0 20px 0 ;
+}
+.proyects-item img{
+  width:430px ;
+}
+/*CO_FUNDER*/
+.co_funder-container{
+  justify-content: start;
+  justify-content: space-between;
+}
+.co_funder-text{
+  max-width: 400px;
+}
+/*CALLOUT*/
+.callout{
+  width: 50%;
+  max-width: 430px;
+}
+.callout>*{
+  margin: 15px 0 15px 0;
+}
